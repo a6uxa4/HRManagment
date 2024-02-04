@@ -1,7 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 import {
-  getUserFromStorage,
   removeUserFromStorage,
   saveUserToStorage,
 } from "../../utils/helpers/auth.helpers";
